@@ -83,4 +83,7 @@ void main() {
   // --------------------- //
 
   var equipeProjeto = EquipeProjeto("Meu Projeto", funcionarios);
+ equipeProjeto = EquipeProjeto("Meu Projeto", funcionarios);
+  var equipeProjetoJson = jsonEncode(equipeProjeto.toJson());
+  print(equipeProjetoJson);
 
